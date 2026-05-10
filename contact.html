@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Exhibition and Trade Fair Limited</title>
+    <meta name="description" content="Get in touch with us to book an appointment or inquire about our international trade fair management services.">
+    <link rel="stylesheet" href="/src/index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased">
+    <!-- Main Outer Container -->
+    <div class="max-w-[1440px] mx-auto bg-white min-h-screen flex flex-col shadow-2xl border-x-8 border-slate-900">
+        <!-- Header -->
+        <header class="flex items-center justify-between px-6 md:px-12 h-24 bg-white border-b border-slate-200 sticky top-0 z-50">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-blue-900 flex items-center justify-center font-bold text-white text-2xl">ET</div>
+                <div class="flex flex-col text-slate-900">
+                    <span class="font-black text-xl tracking-tighter leading-none uppercase">Exhibition & Tradefair</span>
+                    <span class="text-[10px] text-blue-700 font-bold tracking-[0.2em] uppercase mt-1">Global Event Specialists</span>
+                </div>
+            </div>
+            <nav class="hidden lg:flex gap-10 text-[11px] font-black tracking-widest text-slate-500">
+                <a href="/index.html" class="hover:text-blue-900 transition-colors">HOME</a>
+                <a href="/services.html" class="hover:text-blue-900 transition-colors">SERVICES</a>
+                <a href="/exhibitions.html" class="hover:text-blue-900 transition-colors">EXHIBITIONS</a>
+                <a href="/about.html" class="hover:text-blue-900 transition-colors">ABOUT</a>
+                <a href="/contact.html" class="text-blue-900 border-b-2 border-blue-900 pb-1">CONTACT</a>
+            </nav>
+            <div class="flex items-center gap-6">
+                <a href="/contact.html" class="bg-blue-900 text-white px-8 py-3 text-xs font-black tracking-widest hover:bg-blue-800 transition-all uppercase">
+                    Call Us
+                </a>
+            </div>
+        </header>
+
+        <main class="flex-grow flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x divide-slate-900 border-b border-slate-900">
+            <!-- Contact Info Sidebar -->
+            <section class="w-full lg:w-2/5 p-10 lg:p-20 bg-slate-900 text-white flex flex-col justify-between min-h-[600px]">
+                <div>
+                    <span class="text-blue-500 font-black text-xs tracking-[0.4em] uppercase mb-8 block font-mono">05. Connect</span>
+                    <h1 class="text-5xl md:text-7xl font-black uppercase tracking-tighter italic leading-none mb-12">Contact<br/>ETL.</h1>
+                    
+                    <div class="space-y-12 mb-20">
+                        <div>
+                            <h4 class="text-[10px] font-black text-blue-400 tracking-widest uppercase mb-4">Location</h4>
+                            <p class="text-lg font-bold leading-tight">Lagos, Nigeria</p>
+                            <p class="pt-1.5 text-slate-400 text-xs font-medium">39 Opebi Road,</p>
+                            <p class="text-slate-400 text-xs font-medium">Ikeja, Lagos.</p>
+                        </div>
+                        <div>
+                            <h4 class="text-[10px] font-black text-blue-400 tracking-widest uppercase mb-4">Email</h4>
+                            <p class="text-lg font-bold leading-tight">info@exhibitionandtradefair.com</p>
+                        </div>
+                        <div>
+                            <h4 class="text-[10px] font-black text-blue-400 tracking-widest uppercase mb-4">Phone</h4>
+                            <p class="text-lg font-bold leading-tight">+234 1 213 5557</p>
+                            <p class="text-lg font-bold leading-tight">+234 8023 126 444</p>
+                            <p class="text-lg font-bold leading-tight">+234 8033 773 335</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-10 border-t border-slate-800">
+                    <div class="flex gap-6">
+                        <a href="#" class="w-12 h-12 border border-slate-700 flex items-center justify-center hover:bg-blue-900 transition-all cursor-pointer group">
+                            <i data-lucide="facebook" class="w-5 h-5 text-white group-hover:scale-110 transition-transform"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 border border-slate-700 flex items-center justify-center hover:bg-blue-900 transition-all cursor-pointer group">
+                            <i data-lucide="twitter" class="w-5 h-5 text-white group-hover:scale-110 transition-transform"></i>
+                        </a>
+                        <a href="#" class="w-12 h-12 border border-slate-700 flex items-center justify-center hover:bg-blue-900 transition-all cursor-pointer group">
+                            <i data-lucide="instagram" class="w-5 h-5 text-white group-hover:scale-110 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Form Area -->
+            <section class="w-full lg:w-3/5 p-10 lg:p-20 bg-white">
+                <div class="max-w-xl mx-auto">
+                    <h2 class="text-4xl font-black text-slate-900 uppercase tracking-tighter mb-12">Send an Inquiry.</h2>
+                    <form class="space-y-8" id="enquiryForm">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="space-y-2">
+                                <label class="text-[10px] font-black uppercase tracking-widest text-slate-500">Full Name</label>
+                                <input type="text" placeholder="Name" required class="w-full border-b-2 border-slate-200 p-4 focus:border-blue-900 outline-none font-bold text-slate-900 placeholder:text-slate-300">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-[10px] font-black uppercase tracking-widest text-slate-500">Email Address</label>
+                                <input type="email" placeholder="Email" required class="w-full border-b-2 border-slate-200 p-4 focus:border-blue-900 outline-none font-bold text-slate-900 placeholder:text-slate-300">
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-[10px] font-black uppercase tracking-widest text-slate-500">Mobile Phone</label>
+                            <input type="text" placeholder="Mobile Phone" class="w-full border-b-2 border-slate-200 p-4 focus:border-blue-900 outline-none font-bold text-slate-900 placeholder:text-slate-300">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-[10px] font-black uppercase tracking-widest text-slate-500">Message</label>
+                            <textarea rows="4" placeholder="Your requirements..." required class="w-full border-b-2 border-slate-200 p-4 focus:border-blue-900 outline-none font-bold text-slate-900 placeholder:text-slate-300"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-slate-900 text-white font-black text-xs tracking-[0.3em] uppercase py-6 hover:bg-blue-900 transition-all shadow-xl">
+                            Send Secure Message
+                        </button>
+                    </form>
+
+                    <div class="mt-20 p-8 border border-blue-100 bg-blue-50">
+                        <p class="text-xs font-bold text-blue-900 uppercase tracking-widest mb-2">Office Hours</p>
+                        <p class="text-[10px] text-slate-600 font-medium leading-relaxed">Mon - Fri: 08:00 - 17:00 WAT<br/>Available for weekend appointments by request.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-slate-900 py-16 px-6 md:px-12 border-t-8 border-blue-900">
+            <div class="flex flex-col lg:flex-row justify-between gap-12">
+                <div class="max-w-sm">
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-10 h-10 bg-blue-600 flex items-center justify-center font-bold text-white text-xl">ET</div>
+                        <span class="font-black text-xl text-white tracking-tighter uppercase">Exhibition & Tradefair</span>
+                    </div>
+                    <p class="text-slate-500 text-xs leading-loose font-medium mb-8">
+                        Official West African partner for international event management. Connecting Nigerian businesses to global opportunities.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-500 hover:text-white hover:border-white transition-all">in</a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-500 hover:text-white hover:border-white transition-all">fb</a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-slate-800 flex items-center justify-center text-slate-500 hover:text-white hover:border-white transition-all">tw</a>
+                    </div>
+                </div>
+                <div class="footer-right-content grid grid-cols-2 sm:grid-cols-3 sm:gap-12">
+                    <div>
+                        <h4 class="text-[10px] font-black text-blue-500 tracking-[0.2em] uppercase mb-8">Navigation</h4>
+                        <ul class="space-y-4 text-xs font-bold text-slate-400">
+                            <li><a href="/index.html" class="hover:text-white transition-colors">Home</a></li>
+                            <li><a href="/services.html" class="hover:text-white transition-colors">Services</a></li>
+                            <li><a href="/exhibitions.html" class="hover:text-white transition-colors">Exhibitions</a></li>
+                            <li><a href="/about.html" class="hover:text-white transition-colors">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-[10px] font-black text-blue-500 tracking-[0.2em] uppercase mb-8">Contact</h4>
+                        <ul class="space-y-3 text-xs font-bold text-slate-400">
+                            <li class="flex flex-col">
+                                <span>39 Opebi Road,</span>
+                                <span>Ikeja, Lagos, Nigeria.</span>
+                            </li>
+                            <li class="flex flex-col">
+                                <span>+234 1 213 5557</span>
+                                <span>+234 8023 126 444</span>
+                            </li>
+                            <li>info@exhibitionandtradefair.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center sm:justify-between gap-4">
+                <span class="text-[10px] font-bold text-slate-600 uppercase tracking-widest">&copy; 2026 Exhibition & Trade Fair Limited</span>
+                <div class="flex gap-8 text-[10px] font-bold text-slate-600 uppercase tracking-widest">
+                    <a href="#" class="hover:text-white transition-colors">Privacy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/src/js/main.js"></script>
+    <script>
+        document.getElementById('enquiryForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            console.log('Form submitted');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
